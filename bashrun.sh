@@ -6,7 +6,7 @@ watch_dir="./html"  # Replace with the directory you want to monitor
 run_command() {
     echo "Changes detected! Running command..."
     # Example command: run wkhtmltopdf
-    output=$(windows/wkhtmltopdf --enable-local-file-access --page-size letter --margin-top 0 --margin-bottom 0 --margin-left 0 --margin-right 0 html/index.html out.pdf 2>&1)
+    output=$(wkhtmltopdf --enable-local-file-access --page-size letter --margin-top 0 --margin-bottom 0 --margin-left 0 --margin-right 0 html/index.html out.pdf 2>&1)
     echo "$output"
 }
 
