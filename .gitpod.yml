@@ -1,3 +1,4 @@
+
 image:
     file: .gitpod.Dockerfile
 
@@ -6,3 +7,6 @@ tasks:
     - name: Run
       command: bash bashrun.sh
 
+vscode:
+  extensions:
+    - anwar.papyrus-pdf
