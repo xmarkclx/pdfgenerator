@@ -41,7 +41,7 @@ p {
 
 .content_left{
     position: absolute;
-    right: 378px;
+    right: 353px;
     bottom: 88px;
     font-size: 31px;
     
@@ -58,7 +58,7 @@ p {
 
 .content_left2{
     position: absolute;
-    right: 378px;
+    right: 353px;
     top: 44px;
     font-size: 31px;
     
@@ -75,7 +75,7 @@ p {
 
 .content_left3{
     position: absolute;
-    right: 378px;
+    right: 353px;
     top: 88px;
     font-size: 31px;
     
@@ -90,13 +90,144 @@ p {
     display: block;
 }
 
-.text_one{
+.Hypotheekshop{
     font-size: 20px;
     margin-bottom: 10px;
 }
 
-.text_two{
+.Hypotheekshop_text{
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 10px;
+    max-width: 1000px;
+}
+
+.second_content{
+    left: 65px;
+    top: 297px;
+    position: relative;
+}
+
+.Verleend{
+    font-size: 20px;
+    margin-bottom: 25px;
+    top: 15px;
+    position: relative;
+}
+
+.Verleend_text{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    max-width: 1000px;
+}
+
+.Verleend_text_2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 24px;
+    right: 500px;
+}
+
+.Verleend_text_3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: -7px;
+    right: 500px;
+}
+
+.second_content_underline{
+    border-bottom: 1px solid black;
+    width: 68%;
+    display: block;
+    right: 205px;
+    position: absolute;
+}
+
+.second_content_underline2{
+    border-bottom: 1px solid black;
+    width: 14%;
+    display: block;
+    right: 813px;
+    position: absolute;
+}
+
+.second_content_underline3{
+    border-bottom: 1px solid black;
+    width: 14%;
+    right: 700px;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.second_content_underline4{
+    border-bottom: 1px solid black;
+    width: 290px;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: -295px;
+}
+
+.second_content_underline5{
+    border-bottom: 1px solid black;
+    width: 290px;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: -295px;
+}
+
+.Uitgangspunten{
+    font-size: 20px;
+    margin-bottom: 35px;
+    top: 25px;
+    position: relative;
+}
+
+.Uitgangspunten_text{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    max-width: 1000px;
+}
+
+.uitgangspunten_underline2{
+    border-bottom: 1px solid black;
+    width: 8%;
+    display: block;
+    right: 753px;
+    position: absolute;
+    bottom: 70px;
+    text-align: right;
+}
+
+.uitgangspunten_underline3{
+    border-bottom: 1px solid black;
+    width: 8%;
+    display: block;
+    right: 753px;
+    position: absolute;
+    bottom: 30px;
+    text-align: right;
+}
+
+.uitgangspunten2{
+    border-bottom: 1px solid trasparent;
+    width: 8%;
+    display: block;
+    right: 713px;
+    position: absolute;
+    bottom: 0px;
+    text-align: left;
+}
+
+.third_content{
+    left: 65px;
+    top: 297px;
+    position: relative;
 }
