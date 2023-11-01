@@ -1,12 +1,15 @@
-
 image:
     file: .gitpod.Dockerfile
 
 # Commands that will run on workspace start
 tasks:
-    - name: Run
+    - init: mkdir -p ~/.fonts && cp html/fonts/* ~/.fonts && fc-cache -f -v
+    - name: Run Auto Build
       command: bash bashrun.sh
+    - name: Run Server
+      command: python3 -m http.server 8000
 
-vscode:
-  extensions:
-    - anwar.papyrus-pdf
+ports:
+  - port: 8000
+    onOpen: open-preview
+

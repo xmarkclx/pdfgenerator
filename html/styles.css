@@ -1,13 +1,101 @@
 body {
-    background-color: lightblue;
-}
-
-h1 {
-    color: navy;
-    margin-left: 20px;
+    margin: 0;
+    font-family: "DIN Next LT Pro Medium";
+    font-weight: bold;
 }
 
 p {
     font-size: 18px;
     color: darkgreen;
+}
+
+.title {
+    top: 129px; 
+    position: absolute;
+    color: white;
+    left: 65px;
+}
+
+.mainTitle {
+    font-family: "DIN Next LT Pro";
+    font-size: 55px;
+}
+
+.subtitle{
+    font-size: 30px;
+    bottom: 7px;
+    left: 3px;
+    position: relative;
+}
+
+.content{
+    left: 65px;
+    top: 275px;
+    position: relative;
+}
+
+.content_text{
+    font-size: 31px;
+    margin-bottom: 8px;
+}
+
+.content_left{
+    position: absolute;
+    right: 378px;
+    bottom: 88px;
+    font-size: 31px;
+    
+}
+
+.content_underline{
+    position: relative; 
+    left:31px;
+    bottom:11px;
+    border-bottom: 1px solid black;
+    width: 166px;
+    display: block;
+}
+
+.content_left2{
+    position: absolute;
+    right: 378px;
+    top: 44px;
+    font-size: 31px;
+    
+}
+
+.content_underline2{
+    position: relative; 
+    left:31px;
+    bottom:11px;
+    border-bottom: 1px solid black;
+    width: 166px;
+    display: block;
+}
+
+.content_left3{
+    position: absolute;
+    right: 378px;
+    top: 88px;
+    font-size: 31px;
+    
+}
+
+.content_underline3{
+    position: relative; 
+    left:31px;
+    bottom:11px;
+    border-bottom: 1px solid black;
+    width: 166px;
+    display: block;
+}
+
+.text_one{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.text_two{
+    font-size: 20px;
+    font-weight: 500;
 }
